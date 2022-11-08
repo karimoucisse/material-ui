@@ -8,8 +8,8 @@ import SideBar from "./components/SideBar"
 const App = () => {
   return (
     <Box>
-      {/* <NavBar/> */}
-      <Stack  direction= "row" justifyContent= "space-between">
+      <NavBar/>
+      <Stack  direction= "row">
         <SideBar/>
         <Feed/>
         <RightBar/>
