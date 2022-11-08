@@ -21,7 +21,8 @@ const SideBar = () => {
     {logo: <GroupAddIcon/>, text: "Friends"},
   ]
   return (
-    <Box p={2} flex= {2} sx= {{display: {xs: "none", sm: "block"}}}>
+    <Box p={2} flex= {1} sx= {{display: {xs: "none", sm: "block"}}}>
+        <Box position="fixed">
       <List>
         {listItems.map(element => {
           return (
@@ -37,6 +38,7 @@ const SideBar = () => {
         })}
         
       </List>
+        </Box>
     </Box>
   )
 }

@@ -5,7 +5,7 @@ import MailIcon from '@mui/icons-material/Mail';
 
 const NavBar = () => {
   return (
-    <AppBar position="static" mb= {4}>
+    <AppBar position="sticky" mb= {4}>
         <Toolbar sx= {{display: "flex", justifyContent: "space-between"}}>
             <Typography variant="h6" sx={{cursor: "pointer"}}>Logo</Typography>
             <Box sx= {{
