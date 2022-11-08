@@ -1,5 +1,5 @@
-import { AppBar, Toolbar, Typography, Search, InputBase, Badge, Avatar } from "@mui/material"
-import { Box, flexbox } from "@mui/system"
+import { AppBar, Toolbar, Typography, InputBase, Badge, Avatar } from "@mui/material"
+import { Box } from "@mui/system"
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import MailIcon from '@mui/icons-material/Mail';
 
@@ -14,6 +14,7 @@ const NavBar = () => {
                 height: "30px", 
                 borderRadius: "10px"
             }}>
+
                 <InputBase placeholder="search ..." sx={{padding:"0 10px"}}/>
             </Box>
             <Box sx= {{display: "flex", gap: "20px", alignItems: "center" }}>

@@ -8,11 +8,11 @@ const RightBar = () => {
     <Box p={2} flex={2} sx= {{display: {xs: "none", sm: "block"}}}>
       <Box position="fixed">
         <Box>
-          <Typography variant= "h6" fontWeight={400} sx= {{marginBottom: "10px"}}>Online friends</Typography>
+          <Typography variant= "h6" fontWeight={400} sx= {{margin: "10px 0"}}>Online friends</Typography>
           <Avatars/>
         </Box>
         <Box>
-          <Typography variant= "h6" fontWeight={400} sx= {{marginBottom: "10px"}}>Latest photo</Typography>
+          <Typography variant= "h6" fontWeight={400} sx= {{margin: "10px 0"}}>Latest photo</Typography>
           <ImagesList/>
         </Box>
       </Box>
